@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name', 'Food Order') }}</title>
+    <title>{{ config('app.name', 'Platero') }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -149,7 +149,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <span style="color: #FF6B6B; font-weight: 700;">{{ config('app.name', 'Food Order') }}</span>
+                <span style="color: #FF6B6B; font-weight: 700;">{{ config('app.name', 'Platero') }}</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -384,7 +384,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5 class="text-white mb-4">{{ config('app.name', 'Food Order') }}</h5>
+                    <h5 class="text-white mb-4">{{ config('app.name', 'Platero') }}</h5>
                     <p>Connecting hungry customers with the best local restaurants. Order delicious food online and get it delivered to your doorstep.</p>
                     <div class="social-icons mt-4">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -416,9 +416,9 @@
                 <div class="col-lg-4 col-md-4">
                     <h5 class="text-white mb-4">Contact Us</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Food Street, City, Country</li>
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Food Street, Noakhali, Bangladesh</li>
                         <li class="mb-2"><i class="fas fa-phone me-2"></i> +1 234 567 890</li>
-                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@foodorder.com</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@platero.com</li>
                     </ul>
                     <div class="mt-4">
                         <h6 class="text-white mb-3">Subscribe to our Newsletter</h6>
@@ -432,7 +432,7 @@
             <hr class="mt-5 mb-4" style="background-color: rgba(255,255,255,0.1);">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; {{ date('Y') }} {{ config('app.name', 'Food Order') }}. All rights reserved.</p>
+                    <p class="mb-0">&copy; {{ date('Y') }} {{ config('app.name', 'Platero') }}. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <a href="#" class="text-muted me-3">Privacy Policy</a>
